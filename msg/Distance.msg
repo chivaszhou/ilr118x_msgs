@@ -1,6 +1,24 @@
 uint8 SUCCESS = 0
-uint8 UNKNOWN_COMMAND = 61
-# TODO: define all errors described in official manuals
+
+# errors defined in official manuals
+uint8 POOR_REFLEXES = 15
+uint8 STRONG_REFLEXES = 16
+uint8 STEADY_LIGHT = 17
+uint8 DISTANCE_DIFFERENCE = 18
+uint8 HIGH_TARGET_SPEED = 19
+uint8 LOW_TEMPERATURE = 23
+uint8 HIGH_TEMPERATURE = 24
+uint8 EEPROM_CHECKSUM = 31
+uint8 SET_LASER_VOLTAGE = 51
+uint8 LASER_CURRENT = 52
+uint8 BAD_PARAMETERS = 53
+uint8 HARDWARE_54 = 54
+uint8 HARDWARE_55 = 55
+uint8 INVALID_COMMAND = 61
+uint8 HARDWARE_OR_PARITY = 62
+uint8 BUFFER_OVERFLOW = 63
+uint8 FRAMING_ERROR = 64
+
 uint8 UNKNOWN_ERROR = 100
 
 std_msgs/Header header
